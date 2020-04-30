@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
 $( document ).ajaxComplete(function() { 
   $(".topic-featured-link").each(function() {
-       console.log(settings.replacement_text);
+       //console.log(settings.replacement_text);
         $(this).html('<svg class="fa d-icon d-icon-external-link-alt svg-icon svg-string" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#external-link-alt"></svg> '+settings.replacement_text);
       });
 });
